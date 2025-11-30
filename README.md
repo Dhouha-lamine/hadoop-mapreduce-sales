@@ -7,15 +7,20 @@ Calcul des quantités totales vendues par produit à partir de fichiers de trans
 
 ## 📈 Exemple de traitement
 
-**Données d'entrée :**
-28/11/2024 14:30 MG Lait 2
-28/11/2024 15:00 MG Lait 2
-28/11/2024 15:10 MG Pain 1
-28/11/2024 15:30 MG Lait 2
-28/11/2024 16:00 MG Pain 1
-**Résultats de sortie :**
-Lait 6
-Pain 2
+### Données d'entrée :
+| Date       | Heure | Magasin | Produit | Quantité |
+|------------|-------|---------|---------|----------|
+| 28/11/2024 | 14:30 | MG      | Lait    | 2        |
+| 28/11/2024 | 15:00 | MG      | Lait    | 2        |
+| 28/11/2024 | 15:10 | MG      | Pain    | 1        |
+| 28/11/2024 | 15:30 | MG      | Lait    | 2        |
+| 28/11/2024 | 16:00 | MG      | Pain    | 1        |
+
+### Résultats de sortie :
+| Produit | Quantité Totale |
+|---------|-----------------|
+| Lait    | 6               |
+| Pain    | 2               |
 ## 🚀 Fonctionnalités
 
 - Traitement de fichiers de transactions de ventes
