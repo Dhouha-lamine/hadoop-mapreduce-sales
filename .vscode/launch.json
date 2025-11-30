@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SalesAnalysis",
+      "request": "launch",
+      "mainClass": "hadoop.mapreduce.tp1.SalesAnalysis",
+      "args": ["src/main/resources/input/file.txt", "src/main/resources/output"]
+    }
+  ]
+}
